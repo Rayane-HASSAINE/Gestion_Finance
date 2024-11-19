@@ -5,7 +5,6 @@ import Navbar from "./components/Navbar";
 
 export default function Home() {
   return (
-    <div className="flex items-center justify-center flex-col py-10 w-full">
       <div>
 <Navbar/>
         <div className="flex flex-col">
@@ -20,6 +19,5 @@ export default function Home() {
           </div>
         </div>
       </div>
-    </div>
   );
 }
